@@ -1,8 +1,6 @@
-
-const Fcoin = require('fcoin-api');
-
+```javascript
 //Important
-let fcoin = new Fcoin({
+const fcoin = new Fcoin({
     key: '',
     secret: ''
 })
@@ -56,3 +54,4 @@ fcoin.getOrders(symbol, states, limit, after, before).then(data => {})
  * @param {订单id} id 
  */
 fcoin.getOrderByid(id).then(data => {})
+```
