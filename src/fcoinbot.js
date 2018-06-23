@@ -14,8 +14,8 @@ const OrderState = {
 };
 
 const API = {
-    key: 'e4b813dcec0b4293a5a59fcdced716d7',
-    secret: 'd6e37e0301c048ffa807db28a62a40b0'
+    key: 'xxx',
+    secret: 'xxx'
 };
 
 const log = new Log();
